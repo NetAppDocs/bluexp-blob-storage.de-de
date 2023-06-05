@@ -1,0 +1,67 @@
+---
+settings:
+  name: Azure Blob storage
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: de-de,us-en,ja-jp,ko-kr,zh-cn,zh-tw,es-es,fr-fr,it-it
+sidebar:
+  entries:
+  - title: Azure Blob Storage-Dokumentation
+    url: "/index.html"
+  - title: Versionshinweise
+    url: "/whats-new.html"
+  - title: Los geht's
+    entries:
+    - title: Azure Blob Storage-Konten anzeigen
+      url: "/task-view-azure-blob-storage.html"
+  - title: Azure Blob Storage-Konten managen
+    entries:
+    - title: Fügen Sie neue Speicherkonten hinzu
+      url: "/task-add-blob-storage.html"
+    - title: Ändern Sie die Einstellungen für Speicherkonten
+      url: "/task-change-blob-storage-settings.html"
+    - title: Verwenden Sie NetApp Datenservices mit Azure Blob Storage
+      url: "/task-blob-enable-data-services.html"
+  - title: Wissen und Support
+    entries:
+    - title: Für den Support anmelden
+      url: "/task-support-registration.html"
+    - title: Holen Sie sich Hilfe
+      url: "/task-get-help.html"
+  - title: Rechtliche Hinweise
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: Los geht's
+    links:
+    - title: Azure Blob Storage-Konten anzeigen
+      url: task-view-azure-blob-storage.html
+  - title: Azure Blob Storage-Konten managen
+    links:
+    - title: Fügen Sie Blob-Speicherkonten hinzu
+      url: task-add-blob-storage.html
+    - title: Ändern Sie die Einstellungen für das Speicherkonto
+      url: task-change-blob-storage-settings.html
+    - title: Verwenden Sie NetApp Datenservices mit Azure Blob Storage
+      url: task-blob-enable-data-services.html
+  - title: Weitere Informationen
+    links:
+    - title: Azure Blob Storage-Dokumentation für das Management außerhalb von BlueXP
+      url: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
+  - title: Blogs und Community
+    links:
+    - title: NetApp Community
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: BlueXP-Blog
+      url: https://bluexp.netapp.com/blog/topic/cloud-manager
+    - title: BlueXP Webinare
+      url: https://bluexp.netapp.com/events
+product-family:
+  name: BlueXP
+  repo: bluexp-family
+  sidebar_label: Alle BlueXP-Dokumentationen

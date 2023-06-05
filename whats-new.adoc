@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, limitations, known issues, enhancements, fixes' 
+summary: Erfahren Sie mehr über die Neuerungen bei Azure Blob Storage in BlueXP. 
+---
+= Neuerungen bei Azure Blob Storage in BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Erfahren Sie mehr über die Neuerungen bei Azure Blob Storage in BlueXP.
+
+
+
+== 5 Juni 2023
+
+
+
+=== Hinzufügen neuer Storage-Konten von BlueXP möglich
+
+Sie haben schon lange die Möglichkeit, Azure Blob Storage auf dem BlueXP-Bildschirm anzuzeigen. Sie können jetzt direkt aus BlueXP neue Storage-Konten hinzufügen und Eigenschaften vorhandener Storage-Konten ändern. https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["Hier erfahren Sie, wie Sie neue Azure Blob Storage-Konten hinzufügen"^].

@@ -1,0 +1,102 @@
+---
+sidebar: sidebar 
+permalink: task-add-blob-storage.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, add storage accounts 
+summary: Sobald Ihre Azure Blob Storage-Arbeitsumgebung in unserem Canvas verfügbar ist, können Sie zusätzliche Storage-Konten direkt aus BlueXP hinzufügen. 
+---
+= Azure Blob Storage-Konten hinzufügen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sobald Ihre Azure Blob Storage-Arbeitsumgebung in unserem Canvas verfügbar ist, können Sie zusätzliche Storage-Konten direkt aus BlueXP hinzufügen.
+
+.Schritte
+. Doppelklicken Sie im Bildschirm auf die Azure Blob Storage-Arbeitsumgebung, um die Seite Azure Blob Storage Overview anzuzeigen, und klicken Sie auf *Storage-Konto hinzufügen*.
++
+image:screenshot-add-blob-storage-button.png["Ein Screenshot mit den Details einer Azure Blob Storage-Arbeitsumgebung und der Schaltfläche Storage-Konto hinzufügen."]
+
++
+Die Seite _Speicherkonto hinzufügen_ wird angezeigt.
+
++
+image:screenshot-add-blob-storage.png["Ein Screenshot mit der Seite „Storage-Konto hinzufügen“, in dem Sie Ihre eigenen Azure Blob Storage-Konten erstellen können."]
+
+. Geben Sie die erforderlichen Informationen im Abschnitt _Projektdetails_ ein.
++
+[cols="25,75"]
+|===
+| Feld | Beschreibung 
+
+
+| Abonnement | Wählen Sie das Azure-Abonnement für das neue Storage-Konto aus. 
+
+
+| Ressourcengruppe  a| 
+Wählen Sie eine vorhandene Ressourcengruppe für dieses Speicherkonto aus.
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["Erfahren Sie mehr über Ressourcengruppen"^].
+
+|===
+. Geben Sie im Abschnitt _Instance Details_ den Namen des Speicherkontos ein und wählen Sie eine Region (oder Regionen) aus, in der das Speicherkonto erstellt werden soll.
++
+[cols="25,75"]
+|===
+| Feld | Beschreibung 
+
+
+| Name des Speicherkontos | Geben Sie den Namen ein, den Sie für das Speicherkonto verwenden möchten. Der Name muss zwischen 3 und 24 Zeichen lang sein und darf nur Ziffern und Kleinbuchstaben enthalten. 
+
+
+| Azure Region  a| 
+Wählen Sie eine Region aus der Liste aus, in der das Speicherkonto erstellt werden soll.
+
+Wählen Sie die entsprechende Region für Ihr Storage-Konto aus. https://learn.microsoft.com/en-us/azure/availability-zones/az-overview["In der Microsoft Dokumentation finden Sie Informationen zu Azure Regionen und Verfügbarkeitszonen"^].
+
+Nicht alle Regionen werden für alle Arten von Storage-Konten oder Redundanzkonfigurationen unterstützt. https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy["Informationen zur Redundanz von Azure Storage finden Sie in der Microsoft-Dokumentation"^].
+
+Darüber hinaus kann die Wahl der Region Auswirkungen auf die Abrechnung haben. https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#storage-account-billing["Informationen zur Abrechnung des Azure Storage-Kontos finden Sie in der Microsoft Dokumentation"^].
+
+
+
+| Performance-Typ  a| 
+Wählen Sie aus, ob Sie *Standard* oder *Premium* Performance Storage verwenden möchten. https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts["Informationen über die Typen von Speicherkonten finden Sie in der Microsoft-Dokumentation"^].
+
+** _Standard_ Performance wird für allgemeine v2-Speicherkonten verwendet. Dieser Kontotyp wird für die meisten Szenarien empfohlen.
+** _Premium_ Performance wird für Szenarien verwendet, die eine niedrige Latenz erfordern. Es gibt drei Arten von Premium-Storage-Konten: Block-Blobs, File Shares und Page-Blobs.
+
+
+|===
+. Im Abschnitt _Tags_ können Sie bis zu 10 Tag-Schlüssel/Wert-Paare eingeben, um Ihre Ressourcen zu gruppieren.
++
+Tags sind Metadaten, mit denen Sie Ressourcen gruppieren können, um Applikationen, Umgebungen, Regionen, Cloud-Provider und vieles mehr zu identifizieren. Sie können einem Speicherkonto Tags hinzufügen, sodass die Tags auf Objekte angewendet werden, wenn sie dem Speicherkonto hinzugefügt werden.
+
++
+Tags sind in neuen, von BlueXP erstellten Storage-Konten standardmäßig deaktiviert. https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["Weitere Informationen zum Tagging finden Sie in der Microsoft-Dokumentation"^].
+
+. Wählen Sie im Abschnitt _Encryption_ die Art der Datenverschlüsselung aus, die Sie verwenden möchten, um den Zugriff auf die Daten im Speicherkonto zu schützen.
++
+[cols="25,75"]
+|===
+| Datenverschlüsselungstyp | Beschreibung 
+
+
+| Von Microsoft gemanagte Schlüssel | Standardmäßig werden von Microsoft gemanagte Verschlüsselungsschlüssel zur Verschlüsselung Ihrer Daten verwendet. 
+
+
+| Vom Kunden gemanagte Schlüssel  a| 
+Sie können für die Datenverschlüsselung Ihre eigenen vom Kunden gemanagten Schlüssel verwenden, anstatt die von Microsoft standardmäßig gemanagten Schlüssel zu verwenden. Wenn Sie planen, Ihre eigenen vom Kunden verwalteten Schlüssel zu verwenden, müssen Sie sie bereits erstellt haben, damit Sie auf dieser Seite den Schlüsselspeicher und die Schlüssel auswählen können.
+
+Die Schlüssel können sich im gleichen Abonnement wie das Speicherkonto befinden, oder Sie können ein anderes Abonnement auswählen.
+
+|===
++
+In der Microsoft Azure-Dokumentation für finden Sie https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["Weitere Informationen zu von Microsoft verwalteten Schlüsseln"^], und https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["Weitere Informationen zu vom Kunden verwalteten Schlüsseln"^].
+
+. Klicken Sie auf *Hinzufügen* und der Bucket wird erstellt.
+

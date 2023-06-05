@@ -1,0 +1,86 @@
+---
+sidebar: sidebar 
+permalink: task-change-blob-storage-settings.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment 
+summary: Sobald Ihre Azure Blob Storage-Arbeitsumgebung im Canvas verfügbar ist, können Sie einige Speicherkontoeigenschaften direkt aus BlueXP ändern. 
+---
+= Ändern Sie die Einstellungen für das Azure Blob Storage-Konto
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sobald Ihre Azure Blob Storage-Arbeitsumgebung im Canvas verfügbar ist, können Sie einige Speicherkontoeigenschaften direkt aus BlueXP ändern.
+
+Beachten Sie, dass Sie den Namen des Storage-Kontos, die Azure-Region oder den Performance-Typ des Speichers nicht ändern können.
+
+Zu den Eigenschaften des Speicherkontos, die Sie ändern können, gehören:
+
+* Die Abonnement- und Ressourcengruppe für das Speicherkonto.
+* Hinzufügen, Ändern oder Entfernen von Tags für die Objekte, die dem Speicherkonto hinzugefügt werden.
+* Gibt an, ob neue Objekte, die dem Speicherkonto hinzugefügt werden, verschlüsselt sind, und die für die Verschlüsselung verwendete Option.
+
+
+Sie können diese Storage-Kontoeinstellungen direkt in BlueXP ändern, indem Sie auf klicken image:button-horizontal-more.gif["Die Schaltfläche „drei Punkte mehr“"] Für ein Speicherkonto.
+
+image:screenshot-edit-azure-blob-storage.png["Ein Screenshot, der zeigt, wie die Eigenschaften von Storage-Konten in BlueXP bearbeitet werden."]
+
+
+
+== Ändern Sie die Projektdetails
+
+Im Abschnitt _Projektdetails_ können Sie das Abonnement und die Ressourcengruppe für das Speicherkonto ändern.
+
+[cols="25,75"]
+|===
+| Feld | Beschreibung 
+
+
+| Abonnement | Wählen Sie ein anderes Azure-Abonnement für das Storage-Konto aus. 
+
+
+| Ressourcengruppe  a| 
+Wählen Sie eine andere Ressourcengruppe für das Speicherkonto aus.
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["Erfahren Sie mehr über Ressourcengruppen"^].
+
+|===
+Klicken Sie auf *Speichern*, um die Änderungen am Speicherkonto zu speichern.
+
+
+
+== Tags für Objekte im Storage-Konto hinzufügen oder ändern
+
+Im Abschnitt _Tags_ können Sie bis zu 10 Tag-Schlüssel/Wert-Paare hinzufügen, oder Sie können ein Tag-Schlüssel/Wert-Paar ändern oder löschen. Tags werden auf Objekte angewendet, wenn sie dem Speicherkonto hinzugefügt werden. Wenn Sie weitere Tags hinzufügen möchten, klicken Sie auf *Neuen Tag hinzufügen*.
+
+https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["Weitere Informationen zum Tagging finden Sie in der Microsoft-Dokumentation"^].
+
+Klicken Sie auf *Speichern*, um die Änderungen am Speicherkonto zu speichern.
+
+
+
+== Ändern Sie die Verschlüsselungseinstellung
+
+Im Abschnitt _Encryption_ können Sie die Art der Datenverschlüsselung ändern, die Sie zum Schutz des Zugriffs auf die Daten in Ihren Speicherkonten verwenden möchten.
+
+[cols="25,75"]
+|===
+| Datenverschlüsselungstyp | Beschreibung 
+
+
+| Von Microsoft gemanagte Schlüssel | Standardmäßig werden von Microsoft gemanagte Verschlüsselungsschlüssel zur Verschlüsselung Ihrer Daten verwendet. 
+
+
+| Vom Kunden gemanagte Schlüssel  a| 
+Sie können für die Datenverschlüsselung Ihre eigenen vom Kunden gemanagten Schlüssel verwenden, anstatt die von Microsoft standardmäßig gemanagten Schlüssel zu verwenden. Wenn Sie planen, Ihre eigenen vom Kunden verwalteten Schlüssel zu verwenden, müssen Sie sie bereits erstellt haben, damit Sie auf dieser Seite den Schlüsselspeicher und die Schlüssel auswählen können.
+
+Die Schlüssel können sich im gleichen Abonnement wie das Speicherkonto befinden, oder Sie können ein anderes Abonnement auswählen.
+
+|===
+In der Microsoft Azure-Dokumentation für finden Sie https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["Weitere Informationen zu von Microsoft verwalteten Schlüsseln"^], und https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["Weitere Informationen zu vom Kunden verwalteten Schlüsseln"^].
+
+Klicken Sie auf *Speichern*, um die Änderungen am Speicherkonto zu speichern.

@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: task-blob-enable-data-services.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment 
+summary: Nachdem Sie Azure Blob Storage-Konten in BlueXP erkannt haben, können Sie NetApp Datenservices für Backup, Tiering und Datensynchronisierung nutzen. 
+---
+= Verwenden Sie NetApp Datenservices mit Azure Blob Storage
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Nachdem Sie Azure Blob Storage-Konten in BlueXP erkannt haben, können Sie NetApp Datenservices für Backup, Tiering und Datensynchronisierung nutzen.
+
+* BlueXP Backup und Recovery* ermöglichen Ihnen Backup Ihrer Daten aus Ihren lokalen ONTAP und Cloud Volumes ONTAP Systemen in Azure Blob Storage.
++
+Um zu beginnen, gehen Sie auf den Bildschirm und legen eine lokale ONTAP oder Cloud Volumes ONTAP Arbeitsumgebung in Ihrer Azure Blob Storage-Arbeitsumgebung per Drag & Drop ab.
+
++
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["Weitere Informationen zur Sicherung von ONTAP Daten in Azure Blob Storage"^].
+
+* BlueXP Tiering* für das Tiering inaktiver Daten von lokalen ONTAP-Clustern auf Azure Blob Storage
++
+Um zu beginnen, gehen Sie auf den Bildschirm und ziehen eine lokale ONTAP-Arbeitsumgebung in Ihrer Azure Blob Storage-Arbeitsumgebung.
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-azure.html["Weitere Informationen zum Tiering von ONTAP Daten in Azure Blob Storage"^].
+
+* Verwenden Sie *BlueXP Kopier- und Synchronisierungsfunktion* zur Synchronisierung von Daten mit oder von Azure Blob Storage-Konten.
++
+Um zu beginnen, gehen Sie auf den Bildschirm und ziehen Sie die Quelle Arbeitsumgebung auf die Ziel-Arbeitsumgebung. Ihre Azure Blob Storage-Arbeitsumgebung kann entweder die Quelle oder das Ziel sein.
+
++
+Sie können auch Ihre Azure Blob Storage-Arbeitsumgebung auswählen und im Servicebereich auf *Copy & Sync* klicken, um Daten mit oder von Azure Blob-Speicherkonten zu synchronisieren.
+
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["Weitere Informationen zum BlueXP Kopier- und Synchronisierungsservice"^].
+
+
