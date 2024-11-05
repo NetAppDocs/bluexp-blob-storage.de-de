@@ -1,0 +1,9 @@
+= Hinzufügen neuer Storage-Konten von BlueXP möglich
+:allow-uri-read: 
+
+
+
+
+=== Hinzufügen neuer Storage-Konten von BlueXP möglich
+
+Sie haben schon lange die Möglichkeit, Azure Blob Storage auf dem BlueXP-Bildschirm anzuzeigen. Sie können jetzt direkt aus BlueXP  neue Storage-Konten hinzufügen und Eigenschaften vorhandener Storage-Konten ändern. https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["Hier erfahren Sie, wie Sie neue Azure Blob Storage-Konten hinzufügen"].
